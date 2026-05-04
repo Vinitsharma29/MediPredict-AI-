@@ -1,0 +1,24 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(11, 92, 255, 0.12), rgba(255, 255, 255, 0) 60%),
+    radial-gradient(900px 500px at 90% 0%, rgba(11, 179, 169, 0.12), rgba(255, 255, 255, 0) 55%),
+    linear-gradient(180deg, #f8fbff 0%, #f6f8fb 40%, #f5f7fb 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes mpPulse { 0% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.01); opacity: 0.92; } 100% { transform: scale(1); opacity: 1; } }
+@keyframes mpBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
