@@ -21,4 +21,8 @@ class PredictionOut(BaseModel):
     recommendations: dict
 
     alert_flag: bool
+<<<<<<< HEAD
     alert_id: int | None = None
+=======
+    alert_id: int | None = None
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

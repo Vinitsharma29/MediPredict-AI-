@@ -94,5 +94,10 @@ def download_report(
     if not path.exists():
         raise HTTPException(status_code=404, detail="File missing")
 
+<<<<<<< HEAD
     return FileResponse(path, media_type=report.mimetype, filename=report.filename)
 
+=======
+    return FileResponse(path, media_type=report.mimetype, filename=report.filename)
+
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

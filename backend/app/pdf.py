@@ -71,4 +71,8 @@ def build_pdf(patient: dict[str, Any], prediction: dict[str, Any]) -> bytes:
 
     c.showPage()
     c.save()
+<<<<<<< HEAD
     return buf.getvalue()
+=======
+    return buf.getvalue()
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

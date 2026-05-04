@@ -71,4 +71,8 @@ def predict(disease: str, features: dict[str, Any]) -> dict[str, Any]:
         "risk_level": risk,
         "feature_importance": fi,
         "shap_values": shap_out,
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

@@ -23,4 +23,8 @@ def login(payload: LoginRequest, db: Session = Depends(get_db)):
 
 @router.get("/me", response_model=MeResponse)
 def me(user: User = Depends(get_current_user)):
+<<<<<<< HEAD
     return MeResponse(id=user.id, email=user.email, role=user.role, full_name=user.full_name)
+=======
+    return MeResponse(id=user.id, email=user.email, role=user.role, full_name=user.full_name)
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

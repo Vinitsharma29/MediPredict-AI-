@@ -11,4 +11,8 @@ def init_app(app: FastAPI) -> None:
     def _startup() -> None:
         Base.metadata.create_all(bind=engine)
         ensure_models_ready()
+<<<<<<< HEAD
         seed_if_needed()
+=======
+        seed_if_needed()
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

@@ -53,7 +53,14 @@ mysql -h 127.0.0.1 -P 3306 -u medipredict -p medipredict
 
 ## Notes
 - ML models train automatically on first backend start using bundled datasets in `backend/app/ml/data/`.
+<<<<<<< HEAD
 - Uploaded reports stored in `backend/storage/` and indexed in MySQL.
 
 ## Datasets (required for real AI)
 Run powershell -ExecutionPolicy Bypass -File .\scripts\fetch_datasets.ps1 to download real heart/diabetes datasets into ackend/app/ml/data/ (or place Kaggle CSVs manually).
+=======
+- Uploaded reports stored in `backend/storage/` and indexed in MySQL.
+
+## Datasets (required for real AI)
+Run powershell -ExecutionPolicy Bypass -File .\scripts\fetch_datasets.ps1 to download real heart/diabetes datasets into ackend/app/ml/data/ (or place Kaggle CSVs manually).
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

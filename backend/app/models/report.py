@@ -17,4 +17,8 @@ class Report(Base):
     stored_path: Mapped[str] = mapped_column(String(500))
     mimetype: Mapped[str] = mapped_column(String(100))
 
+<<<<<<< HEAD
     extracted_text_enc: Mapped[str | None] = mapped_column(Text, nullable=True)
+=======
+    extracted_text_enc: Mapped[str | None] = mapped_column(Text, nullable=True)
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

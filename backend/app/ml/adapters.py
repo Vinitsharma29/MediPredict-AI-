@@ -75,4 +75,8 @@ def patient_to_features(disease: str, patient: dict[str, Any]) -> dict[str, floa
             "Age": age,
         }
 
+<<<<<<< HEAD
     raise ValueError("unknown disease")
+=======
+    raise ValueError("unknown disease")
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

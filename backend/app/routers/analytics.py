@@ -64,4 +64,8 @@ def high_risk(db: Session = Depends(get_db), _=Depends(require_role("doctor"))):
             "created_at": created_at.isoformat(),
         }
         for pid, disease, risk, prob, created_at in rows
+<<<<<<< HEAD
     ]
+=======
+    ]
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

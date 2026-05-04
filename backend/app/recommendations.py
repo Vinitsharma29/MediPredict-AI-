@@ -30,4 +30,8 @@ def recommend(disease: str, risk_level: str, probability: float) -> dict[str, An
         "suggested_specialists": sorted(set(specialist)),
         "lifestyle_tips": tips,
         "disclaimer": "AI support only. Final clinical decisions must be made by a licensed clinician.",
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

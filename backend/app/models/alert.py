@@ -16,4 +16,8 @@ class Alert(Base):
     risk_level: Mapped[str] = mapped_column(String(10))
     probability: Mapped[float]
 
+<<<<<<< HEAD
     status: Mapped[str] = mapped_column(String(20), default="active", index=True)  # active | resolved
+=======
+    status: Mapped[str] = mapped_column(String(20), default="active", index=True)  # active | resolved
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

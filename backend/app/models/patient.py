@@ -22,4 +22,8 @@ class Patient(Base):
     symptoms: Mapped[dict] = mapped_column(JSON)
     vitals: Mapped[dict] = mapped_column(JSON)
 
+<<<<<<< HEAD
     medical_history_enc: Mapped[str | None] = mapped_column(Text, nullable=True)
+=======
+    medical_history_enc: Mapped[str | None] = mapped_column(Text, nullable=True)
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

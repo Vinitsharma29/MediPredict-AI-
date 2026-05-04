@@ -145,4 +145,8 @@ def doctor_decision(
     pred.doctor_decision = payload.doctor_decision
     db.commit()
 
+<<<<<<< HEAD
     return {"ok": True}
+=======
+    return {"ok": True}
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

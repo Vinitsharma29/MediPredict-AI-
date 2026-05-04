@@ -25,4 +25,8 @@ class Prediction(Base):
     recommendations: Mapped[dict] = mapped_column(JSON)
 
     doctor_note: Mapped[str | None] = mapped_column(Text, nullable=True)
+<<<<<<< HEAD
     doctor_decision: Mapped[str | None] = mapped_column(String(20), nullable=True)
+=======
+    doctor_decision: Mapped[str | None] = mapped_column(String(20), nullable=True)
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

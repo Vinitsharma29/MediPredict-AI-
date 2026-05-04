@@ -84,4 +84,8 @@ def resolve_alert(alert_id: int, db: Session = Depends(get_db), _=Depends(requir
         raise HTTPException(status_code=404, detail="Not found")
     a.status = "resolved"
     db.commit()
+<<<<<<< HEAD
     return {"ok": True}
+=======
+    return {"ok": True}
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

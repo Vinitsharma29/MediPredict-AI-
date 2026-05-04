@@ -47,4 +47,8 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     main()
+=======
+    main()
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

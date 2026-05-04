@@ -45,4 +45,8 @@ $header2 | Set-Content -Encoding UTF8 $diabOut
 Get-Content $tmp | Add-Content -Encoding UTF8 $diabOut
 Remove-Item $tmp -Force
 
+<<<<<<< HEAD
 Write-Host "Done. Datasets saved to $dataDir" -ForegroundColor Green
+=======
+Write-Host "Done. Datasets saved to $dataDir" -ForegroundColor Green
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

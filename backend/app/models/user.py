@@ -11,4 +11,8 @@ class User(Base):
     email: Mapped[str] = mapped_column(String(255), unique=True, index=True)
     hashed_password: Mapped[str] = mapped_column(String(255))
     role: Mapped[str] = mapped_column(String(20), index=True)  # doctor | patient
+<<<<<<< HEAD
     full_name: Mapped[str | None] = mapped_column(String(255), nullable=True)
+=======
+    full_name: Mapped[str | None] = mapped_column(String(255), nullable=True)
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

@@ -20,4 +20,8 @@ def get_bundle(disease: str) -> ModelBundle:
         ensure_models_ready()
     if disease not in _REGISTRY:
         raise ValueError(f"Unsupported disease: {disease}")
+<<<<<<< HEAD
     return _REGISTRY[disease]
+=======
+    return _REGISTRY[disease]
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

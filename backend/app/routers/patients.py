@@ -96,4 +96,8 @@ def simulate_patient_case(user: User = Depends(require_role("doctor", "patient")
         "symptoms": symptoms,
         "vitals": vitals,
         "medical_history": "Auto-generated demo case for hackathon workflow.",
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

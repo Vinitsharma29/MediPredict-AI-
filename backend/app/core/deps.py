@@ -28,4 +28,8 @@ def require_role(*roles: str):
             raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Forbidden")
         return user
 
+<<<<<<< HEAD
     return _inner
+=======
+    return _inner
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

@@ -171,4 +171,8 @@ def download_prediction_report(
     }
 
     pdf_bytes = build_pdf(patient_dict, pred_dict)
+<<<<<<< HEAD
     return Response(content=pdf_bytes, media_type="application/pdf")
+=======
+    return Response(content=pdf_bytes, media_type="application/pdf")
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

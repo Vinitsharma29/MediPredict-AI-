@@ -58,4 +58,8 @@ def encrypt_text(value: str | None) -> str | None:
 def decrypt_text(value: str | None) -> str | None:
     if value is None:
         return None
+<<<<<<< HEAD
     return _fernet.decrypt(value.encode("utf-8")).decode("utf-8")
+=======
+    return _fernet.decrypt(value.encode("utf-8")).decode("utf-8")
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099

@@ -100,4 +100,8 @@ def seed_if_needed() -> None:
         db.add_all(patients)
         db.commit()
     finally:
+<<<<<<< HEAD
         db.close()
+=======
+        db.close()
+>>>>>>> 37f8f4a638f6f6a45437c6c153e45685cab00099
